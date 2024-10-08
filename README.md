@@ -15,9 +15,22 @@ This application is designed to classify packages into three categories (`STANDA
 
 ## Setup and Run Instructions
 
-1. **Clone the repository:**
+1. Clone the repository.
 
-   ```bash
-   git clone https://github.com/your-username/package-sorting.git
-   cd package-sorting
-   ```
+```bash
+git clone https://github.com/Sunrostern/box-belt.git
+cd box-belt
+```
+
+2. Install dependencies.
+
+```
+npm install
+```
+
+3. Build and run.
+```
+npm run build && npm run build:frontend
+npm run start:frontend
+```
+Navigate to http://localhost:9000 and play with the app.
